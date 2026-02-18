@@ -46,7 +46,7 @@ nama-nama kode program yang ada di folder ini:
 
   untuk memvalidasi di setiap folder test kelasnya lengkap.
 
-- `visualisasi_bbox.py`
+- `bbox_visualization.py`
 
   untuk melihat secara sekilas bounding box yang ada.
 
