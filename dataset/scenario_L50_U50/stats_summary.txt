@@ -1,0 +1,68 @@
+=== DATASET STATISTICS: scenario_L50_U50 ===
+
+IMAGE STATISTICS:
+  Total Images (Global):  408
+  train_labeled     :  164 (40.20%)
+  train_unlabeled   :  164 (40.20%)
+  val               :  40 (9.80%)
+  test              :  40 (9.80%)
+
+BOUNDING BOX STATISTICS (GLOBAL):
+  Total BBoxes (Global):  2614
+  train_labeled     :  1010 (38.64%)
+  train_unlabeled   :  1046 (40.02%)
+  val               :  290 (11.09%)
+  test              :  268 (10.25%)
+
+BOUNDING BOX PER CLASS (Total Classes: 47):
+---------------------------------------------------------------------------------------------------------------------------------------
+ID   | Class Name                                         | Lab    | Unlab  | Val    | Test   | Total  | Test %  
+---------------------------------------------------------------------------------------------------------------------------------------
+0    | DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDE..  | 14     | 27     | 2      | 9      | 52     |  17.31%
+1    | DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN..  | 29     | 31     | 4      | 8      | 72     |  11.11%
+2    | DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDES..  | 28     | 51     | 12     | 8      | 99     |   8.08%
+3    | DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN..  | 46     | 42     | 14     | 3      | 105    |   2.86%
+4    | DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN..  | 11     | 29     | 3      | 6      | 49     |  12.24%
+5    | DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESI..  | 51     | 34     | 12     | 8      | 105    |   7.62%
+6    | DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3    | 34     | 48     | 14     | 11     | 107    |  10.28%
+7    | DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESI..  | 19     | 18     | 3      | 2      | 42     |   4.76%
+8    | DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIG..  | 36     | 29     | 6      | 14     | 85     |  16.47%
+9    | DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN..  | 18     | 27     | 11     | 11     | 67     |  16.42%
+10   | DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN..  | 34     | 29     | 9      | 13     | 85     |  15.29%
+11   | DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN..  | 31     | 35     | 9      | 15     | 90     |  16.67%
+12   | DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3    | 34     | 25     | 12     | 3      | 74     |   4.05%
+13   | DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3    | 35     | 31     | 10     | 16     | 92     |  17.39%
+14   | DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIG..  | 16     | 9      | 5      | 9      | 39     |  23.08%
+15   | DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN..  | 34     | 42     | 8      | 10     | 94     |  10.64%
+16   | DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN..  | 41     | 82     | 10     | 11     | 144    |   7.64%
+17   | LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2          | 17     | 10     | 3      | 4      | 34     |  11.76%
+18   | LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2      | 8      | 18     | 3      | 2      | 31     |   6.45%
+19   | LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2      | 9      | 21     | 4      | 4      | 38     |  10.53%
+20   | LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2      | 16     | 11     | 4      | 3      | 34     |   8.82%
+21   | LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2          | 9      | 9      | 4      | 4      | 26     |  15.38%
+22   | LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2      | 11     | 16     | 4      | 3      | 34     |   8.82%
+23   | LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2      | 25     | 23     | 3      | 4      | 55     |   7.27%
+24   | LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2      | 16     | 15     | 1      | 3      | 35     |   8.57%
+25   | LACTOGEN PRO 0-6 mo 12x1kg ID                      | 16     | 12     | 3      | 3      | 34     |   8.82%
+26   | LACTOGEN PRO 0-6 mo 12x735g ID                     | 20     | 18     | 10     | 6      | 54     |  11.11%
+27   | LACTOGEN PRO 0-6 mo 24x350g ID                     | 27     | 27     | 11     | 4      | 69     |   5.80%
+28   | LACTOGEN PRO 0-6 mo 40x180g ID                     | 32     | 38     | 11     | 8      | 89     |   8.99%
+29   | LACTOGEN PRO 6-12 mo 12x1kg ID                     | 23     | 14     | 5      | 5      | 47     |  10.64%
+30   | LACTOGEN PRO 6-12 mo 12x735g ID                    | 26     | 20     | 6      | 4      | 56     |   7.14%
+31   | LACTOGEN PRO 6-12 mo 24x350g ID                    | 27     | 21     | 5      | 4      | 57     |   7.02%
+32   | LACTOGEN PRO 6-12 mo 40x180g ID                    | 38     | 27     | 5      | 7      | 77     |   9.09%
+33   | LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDES..  | 15     | 11     | 7      | 4      | 37     |  10.81%
+34   | LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDE..  | 15     | 19     | 6      | 3      | 43     |   6.98%
+35   | LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDE..  | 15     | 20     | 6      | 3      | 44     |   6.82%
+36   | LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDE..  | 6      | 5      | 5      | 1      | 17     |   5.88%
+37   | LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2     | 16     | 8      | 2      | 3      | 29     |  10.34%
+38   | LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESI..  | 9      | 12     | 2      | 3      | 26     |  11.54%
+39   | LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESI..  | 5      | 5      | 3      | 1      | 14     |   7.14%
+40   | LACTOGROW PRO 1+ Honey 12x1kg ID                   | 6      | 5      | 3      | 3      | 17     |  17.65%
+41   | LACTOGROW PRO 1+ Honey 12x735g ID                  | 8      | 4      | 2      | 2      | 16     |  12.50%
+42   | LACTOGROW PRO 1+ Honey 24x350g ID                  | 37     | 31     | 10     | 6      | 84     |   7.14%
+43   | LACTOGROW PRO 1+ Honey 40x145g ID                  | 18     | 10     | 5      | 3      | 36     |   8.33%
+44   | LACTOGROW PRO 1+ Van 12x1kg ID                     | 8      | 6      | 5      | 4      | 23     |  17.39%
+45   | LACTOGROW PRO 1+ Van 12x735g ID                    | 11     | 7      | 4      | 3      | 25     |  12.00%
+46   | LACTOGROW PRO 1+ Van 24x350g ID                    | 10     | 14     | 4      | 4      | 32     |  12.50%
+---------------------------------------------------------------------------------------------------------------------------------------

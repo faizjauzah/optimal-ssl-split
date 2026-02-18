@@ -1,0 +1,189 @@
+Scenario,Subset,Class_ID,Class_Name,Count
+scenario_L50_U50,train_labeled,0,DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3,14
+scenario_L50_U50,train_labeled,1,DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,29
+scenario_L50_U50,train_labeled,2,DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDESIGN3,28
+scenario_L50_U50,train_labeled,3,DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN3,46
+scenario_L50_U50,train_labeled,4,DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,11
+scenario_L50_U50,train_labeled,5,DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESIGN3,51
+scenario_L50_U50,train_labeled,6,DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3,34
+scenario_L50_U50,train_labeled,7,DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESIGN3,19
+scenario_L50_U50,train_labeled,8,DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,36
+scenario_L50_U50,train_labeled,9,DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,18
+scenario_L50_U50,train_labeled,10,DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,34
+scenario_L50_U50,train_labeled,11,DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,31
+scenario_L50_U50,train_labeled,12,DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3,34
+scenario_L50_U50,train_labeled,13,DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3,35
+scenario_L50_U50,train_labeled,14,DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,16
+scenario_L50_U50,train_labeled,15,DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,34
+scenario_L50_U50,train_labeled,16,DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,41
+scenario_L50_U50,train_labeled,17,LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2,17
+scenario_L50_U50,train_labeled,18,LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2,8
+scenario_L50_U50,train_labeled,19,LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2,9
+scenario_L50_U50,train_labeled,20,LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2,16
+scenario_L50_U50,train_labeled,21,LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2,9
+scenario_L50_U50,train_labeled,22,LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2,11
+scenario_L50_U50,train_labeled,23,LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2,25
+scenario_L50_U50,train_labeled,24,LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2,16
+scenario_L50_U50,train_labeled,25,LACTOGEN PRO 0-6 mo 12x1kg ID,16
+scenario_L50_U50,train_labeled,26,LACTOGEN PRO 0-6 mo 12x735g ID,20
+scenario_L50_U50,train_labeled,27,LACTOGEN PRO 0-6 mo 24x350g ID,27
+scenario_L50_U50,train_labeled,28,LACTOGEN PRO 0-6 mo 40x180g ID,32
+scenario_L50_U50,train_labeled,29,LACTOGEN PRO 6-12 mo 12x1kg ID,23
+scenario_L50_U50,train_labeled,30,LACTOGEN PRO 6-12 mo 12x735g ID,26
+scenario_L50_U50,train_labeled,31,LACTOGEN PRO 6-12 mo 24x350g ID,27
+scenario_L50_U50,train_labeled,32,LACTOGEN PRO 6-12 mo 40x180g ID,38
+scenario_L50_U50,train_labeled,33,LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDESIGN2,15
+scenario_L50_U50,train_labeled,34,LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDESIGN2,15
+scenario_L50_U50,train_labeled,35,LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDESIGN2,15
+scenario_L50_U50,train_labeled,36,LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDESIGN2,6
+scenario_L50_U50,train_labeled,37,LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2,16
+scenario_L50_U50,train_labeled,38,LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESIGN2,9
+scenario_L50_U50,train_labeled,39,LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESIGN2,5
+scenario_L50_U50,train_labeled,40,LACTOGROW PRO 1+ Honey 12x1kg ID,6
+scenario_L50_U50,train_labeled,41,LACTOGROW PRO 1+ Honey 12x735g ID,8
+scenario_L50_U50,train_labeled,42,LACTOGROW PRO 1+ Honey 24x350g ID,37
+scenario_L50_U50,train_labeled,43,LACTOGROW PRO 1+ Honey 40x145g ID,18
+scenario_L50_U50,train_labeled,44,LACTOGROW PRO 1+ Van 12x1kg ID,8
+scenario_L50_U50,train_labeled,45,LACTOGROW PRO 1+ Van 12x735g ID,11
+scenario_L50_U50,train_labeled,46,LACTOGROW PRO 1+ Van 24x350g ID,10
+scenario_L50_U50,train_unlabeled,0,DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3,27
+scenario_L50_U50,train_unlabeled,1,DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,31
+scenario_L50_U50,train_unlabeled,2,DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDESIGN3,51
+scenario_L50_U50,train_unlabeled,3,DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN3,42
+scenario_L50_U50,train_unlabeled,4,DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,29
+scenario_L50_U50,train_unlabeled,5,DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESIGN3,34
+scenario_L50_U50,train_unlabeled,6,DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3,48
+scenario_L50_U50,train_unlabeled,7,DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESIGN3,18
+scenario_L50_U50,train_unlabeled,8,DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,29
+scenario_L50_U50,train_unlabeled,9,DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,27
+scenario_L50_U50,train_unlabeled,10,DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,29
+scenario_L50_U50,train_unlabeled,11,DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,35
+scenario_L50_U50,train_unlabeled,12,DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3,25
+scenario_L50_U50,train_unlabeled,13,DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3,31
+scenario_L50_U50,train_unlabeled,14,DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,9
+scenario_L50_U50,train_unlabeled,15,DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,42
+scenario_L50_U50,train_unlabeled,16,DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,82
+scenario_L50_U50,train_unlabeled,17,LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2,10
+scenario_L50_U50,train_unlabeled,18,LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2,18
+scenario_L50_U50,train_unlabeled,19,LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2,21
+scenario_L50_U50,train_unlabeled,20,LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2,11
+scenario_L50_U50,train_unlabeled,21,LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2,9
+scenario_L50_U50,train_unlabeled,22,LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2,16
+scenario_L50_U50,train_unlabeled,23,LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2,23
+scenario_L50_U50,train_unlabeled,24,LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2,15
+scenario_L50_U50,train_unlabeled,25,LACTOGEN PRO 0-6 mo 12x1kg ID,12
+scenario_L50_U50,train_unlabeled,26,LACTOGEN PRO 0-6 mo 12x735g ID,18
+scenario_L50_U50,train_unlabeled,27,LACTOGEN PRO 0-6 mo 24x350g ID,27
+scenario_L50_U50,train_unlabeled,28,LACTOGEN PRO 0-6 mo 40x180g ID,38
+scenario_L50_U50,train_unlabeled,29,LACTOGEN PRO 6-12 mo 12x1kg ID,14
+scenario_L50_U50,train_unlabeled,30,LACTOGEN PRO 6-12 mo 12x735g ID,20
+scenario_L50_U50,train_unlabeled,31,LACTOGEN PRO 6-12 mo 24x350g ID,21
+scenario_L50_U50,train_unlabeled,32,LACTOGEN PRO 6-12 mo 40x180g ID,27
+scenario_L50_U50,train_unlabeled,33,LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDESIGN2,11
+scenario_L50_U50,train_unlabeled,34,LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDESIGN2,19
+scenario_L50_U50,train_unlabeled,35,LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDESIGN2,20
+scenario_L50_U50,train_unlabeled,36,LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDESIGN2,5
+scenario_L50_U50,train_unlabeled,37,LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2,8
+scenario_L50_U50,train_unlabeled,38,LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESIGN2,12
+scenario_L50_U50,train_unlabeled,39,LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESIGN2,5
+scenario_L50_U50,train_unlabeled,40,LACTOGROW PRO 1+ Honey 12x1kg ID,5
+scenario_L50_U50,train_unlabeled,41,LACTOGROW PRO 1+ Honey 12x735g ID,4
+scenario_L50_U50,train_unlabeled,42,LACTOGROW PRO 1+ Honey 24x350g ID,31
+scenario_L50_U50,train_unlabeled,43,LACTOGROW PRO 1+ Honey 40x145g ID,10
+scenario_L50_U50,train_unlabeled,44,LACTOGROW PRO 1+ Van 12x1kg ID,6
+scenario_L50_U50,train_unlabeled,45,LACTOGROW PRO 1+ Van 12x735g ID,7
+scenario_L50_U50,train_unlabeled,46,LACTOGROW PRO 1+ Van 24x350g ID,14
+scenario_L50_U50,val,0,DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3,2
+scenario_L50_U50,val,1,DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,4
+scenario_L50_U50,val,2,DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDESIGN3,12
+scenario_L50_U50,val,3,DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN3,14
+scenario_L50_U50,val,4,DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,3
+scenario_L50_U50,val,5,DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESIGN3,12
+scenario_L50_U50,val,6,DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3,14
+scenario_L50_U50,val,7,DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESIGN3,3
+scenario_L50_U50,val,8,DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,6
+scenario_L50_U50,val,9,DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,11
+scenario_L50_U50,val,10,DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,9
+scenario_L50_U50,val,11,DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,9
+scenario_L50_U50,val,12,DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3,12
+scenario_L50_U50,val,13,DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3,10
+scenario_L50_U50,val,14,DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,5
+scenario_L50_U50,val,15,DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,8
+scenario_L50_U50,val,16,DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,10
+scenario_L50_U50,val,17,LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2,3
+scenario_L50_U50,val,18,LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2,3
+scenario_L50_U50,val,19,LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2,4
+scenario_L50_U50,val,20,LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2,4
+scenario_L50_U50,val,21,LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2,4
+scenario_L50_U50,val,22,LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2,4
+scenario_L50_U50,val,23,LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2,3
+scenario_L50_U50,val,24,LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2,1
+scenario_L50_U50,val,25,LACTOGEN PRO 0-6 mo 12x1kg ID,3
+scenario_L50_U50,val,26,LACTOGEN PRO 0-6 mo 12x735g ID,10
+scenario_L50_U50,val,27,LACTOGEN PRO 0-6 mo 24x350g ID,11
+scenario_L50_U50,val,28,LACTOGEN PRO 0-6 mo 40x180g ID,11
+scenario_L50_U50,val,29,LACTOGEN PRO 6-12 mo 12x1kg ID,5
+scenario_L50_U50,val,30,LACTOGEN PRO 6-12 mo 12x735g ID,6
+scenario_L50_U50,val,31,LACTOGEN PRO 6-12 mo 24x350g ID,5
+scenario_L50_U50,val,32,LACTOGEN PRO 6-12 mo 40x180g ID,5
+scenario_L50_U50,val,33,LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDESIGN2,7
+scenario_L50_U50,val,34,LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDESIGN2,6
+scenario_L50_U50,val,35,LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDESIGN2,6
+scenario_L50_U50,val,36,LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDESIGN2,5
+scenario_L50_U50,val,37,LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2,2
+scenario_L50_U50,val,38,LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESIGN2,2
+scenario_L50_U50,val,39,LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESIGN2,3
+scenario_L50_U50,val,40,LACTOGROW PRO 1+ Honey 12x1kg ID,3
+scenario_L50_U50,val,41,LACTOGROW PRO 1+ Honey 12x735g ID,2
+scenario_L50_U50,val,42,LACTOGROW PRO 1+ Honey 24x350g ID,10
+scenario_L50_U50,val,43,LACTOGROW PRO 1+ Honey 40x145g ID,5
+scenario_L50_U50,val,44,LACTOGROW PRO 1+ Van 12x1kg ID,5
+scenario_L50_U50,val,45,LACTOGROW PRO 1+ Van 12x735g ID,4
+scenario_L50_U50,val,46,LACTOGROW PRO 1+ Van 24x350g ID,4
+scenario_L50_U50,test,0,DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3,9
+scenario_L50_U50,test,1,DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,8
+scenario_L50_U50,test,2,DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDESIGN3,8
+scenario_L50_U50,test,3,DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN3,3
+scenario_L50_U50,test,4,DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,6
+scenario_L50_U50,test,5,DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESIGN3,8
+scenario_L50_U50,test,6,DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3,11
+scenario_L50_U50,test,7,DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESIGN3,2
+scenario_L50_U50,test,8,DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,14
+scenario_L50_U50,test,9,DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,11
+scenario_L50_U50,test,10,DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,13
+scenario_L50_U50,test,11,DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN3,15
+scenario_L50_U50,test,12,DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3,3
+scenario_L50_U50,test,13,DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3,16
+scenario_L50_U50,test,14,DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3,9
+scenario_L50_U50,test,15,DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN3,10
+scenario_L50_U50,test,16,DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN3,11
+scenario_L50_U50,test,17,LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2,4
+scenario_L50_U50,test,18,LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2,2
+scenario_L50_U50,test,19,LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2,4
+scenario_L50_U50,test,20,LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2,3
+scenario_L50_U50,test,21,LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2,4
+scenario_L50_U50,test,22,LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2,3
+scenario_L50_U50,test,23,LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2,4
+scenario_L50_U50,test,24,LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2,3
+scenario_L50_U50,test,25,LACTOGEN PRO 0-6 mo 12x1kg ID,3
+scenario_L50_U50,test,26,LACTOGEN PRO 0-6 mo 12x735g ID,6
+scenario_L50_U50,test,27,LACTOGEN PRO 0-6 mo 24x350g ID,4
+scenario_L50_U50,test,28,LACTOGEN PRO 0-6 mo 40x180g ID,8
+scenario_L50_U50,test,29,LACTOGEN PRO 6-12 mo 12x1kg ID,5
+scenario_L50_U50,test,30,LACTOGEN PRO 6-12 mo 12x735g ID,4
+scenario_L50_U50,test,31,LACTOGEN PRO 6-12 mo 24x350g ID,4
+scenario_L50_U50,test,32,LACTOGEN PRO 6-12 mo 40x180g ID,7
+scenario_L50_U50,test,33,LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDESIGN2,4
+scenario_L50_U50,test,34,LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDESIGN2,3
+scenario_L50_U50,test,35,LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDESIGN2,3
+scenario_L50_U50,test,36,LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDESIGN2,1
+scenario_L50_U50,test,37,LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2,3
+scenario_L50_U50,test,38,LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESIGN2,3
+scenario_L50_U50,test,39,LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESIGN2,1
+scenario_L50_U50,test,40,LACTOGROW PRO 1+ Honey 12x1kg ID,3
+scenario_L50_U50,test,41,LACTOGROW PRO 1+ Honey 12x735g ID,2
+scenario_L50_U50,test,42,LACTOGROW PRO 1+ Honey 24x350g ID,6
+scenario_L50_U50,test,43,LACTOGROW PRO 1+ Honey 40x145g ID,3
+scenario_L50_U50,test,44,LACTOGROW PRO 1+ Van 12x1kg ID,4
+scenario_L50_U50,test,45,LACTOGROW PRO 1+ Van 12x735g ID,3
+scenario_L50_U50,test,46,LACTOGROW PRO 1+ Van 24x350g ID,4
