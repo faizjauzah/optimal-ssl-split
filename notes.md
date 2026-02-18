@@ -16,7 +16,7 @@ ketika sudah selesai mengerjakan project, matikan env dengan `conda deactivate`.
 
 ## Struktur Project
 
-struktur awal dari project ini ada 4 folder utama dan 1 file notes. 4 folder tersebut adalah folder dataset, datasetGramasi, hasilAkhir dan yolov12.
+struktur awal dari project ini ada 5 folder utama dan 1 file notes. 5 folder tersebut adalah folder dataset, datasetGramasi, hasilAkhir, hasilRunTerminal dan yolov12.
 
 saya akan jelaskan masing-masing dari folder tersebut.
 
@@ -31,6 +31,10 @@ folder ini adalah folder hasil program data splitting yang akan mengsplit folder
 ### folder hasilAkhir
 
 folder ini adalah folder yang isinya hasil trainingan dari masing-masing skenario dan juga iterasinya.
+
+### folder hasilRunTerminal
+
+folder ini berisi file .txt yang isinya copyan dari hasil run setiap langkah pipeline dari masing-masing skenario dan model. gunanya untuk melihat kembali hasil runningan di terminal, siapa tau kehapus.
 
 ### folder yolov12
 
