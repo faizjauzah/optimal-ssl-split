@@ -56,7 +56,7 @@ nama-nama kode program yang ada di folder ini:
 
    contoh nama `train_teacher_L10.py` berarti ini merupakan kode untuk skenario data label 10%. ini merupakan langkah pertama dari pipeline project ini yaitu melatih model teacher dari data berlabel yang ada. hasil dari trainingan ini akan masuk ke folder `hasilAkhir`.
 
-2. `generate_pseudo_labels_L<scenario>.py`
+2. `predict_pseudo_labels_L<scenario>.py`
 
    hasil training model teacher tadi akan digunakan untuk memprediksi labels ke data unlabel sisanya. misal di skenario 10% data label maka kode ini akan digunakan untuk memprediksi pseudo labels dari 90% data unlabel yang ada. hasilnya adalah folder labels yang isinya file .txt.
 
