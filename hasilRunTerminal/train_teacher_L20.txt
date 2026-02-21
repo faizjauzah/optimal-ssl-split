@@ -1,11 +1,11 @@
-200 epochs completed in 0.148 hours.
+200 epochs completed in 0.154 hours.
 Optimizer stripped from hasilAkhir\scenario_L20_teacher\weights\last.pt, 5.5MB
 Optimizer stripped from hasilAkhir\scenario_L20_teacher\weights\best.pt, 5.5MB
 
 Validating hasilAkhir\scenario_L20_teacher\weights\best.pt...
 Ultralytics 8.3.63 🚀 Python-3.10.19 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2060 SUPER, 8192MiB)
 YOLOv12n summary (fused): 376 layers, 2,517,509 parameters, 0 gradients, 5.9 GFLOPs
-                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.05it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.13it/s]
                    all         40        290      0.664      0.566      0.637      0.594
 DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3          2          2       0.68        0.5      0.501      0.501
 DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3          4          4      0.212      0.344      0.478      0.433
@@ -54,19 +54,18 @@ LACTOGROW PRO 1+ Honey 40x145g ID          5          5      0.779        0.4   
 LACTOGROW PRO 1+ Van 12x1kg ID          5          5      0.519      0.437      0.574      0.544
 LACTOGROW PRO 1+ Van 12x735g ID          4          4      0.605        0.5      0.662      0.604
 LACTOGROW PRO 1+ Van 24x350g ID          4          4      0.312       0.25      0.488      0.479
-Speed: 0.5ms preprocess, 7.3ms inference, 0.0ms loss, 1.0ms postprocess per image
+Speed: 0.3ms preprocess, 8.2ms inference, 0.0ms loss, 1.5ms postprocess per image
 Results saved to hasilAkhir\scenario_L20_teacher
 ✅ Training Selesai!
 📊 Hasil tersimpan di: runs/detect/hasilAkhir/scenario_L20_teacher
 Ultralytics 8.3.63 🚀 Python-3.10.19 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2060 SUPER, 8192MiB)
 YOLOv12n summary (fused): 376 layers, 2,517,509 parameters, 0 gradients, 5.9 GFLOPs
-val: Scanning C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L20_U80\test\labels... 40 images, 0 backgrounds, 0 corrupt: 100%|██████████| 40/40 [00:00<00:00, 375.75it/s]
-val: New cache created: C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L20_U80\test\labels.cache
+val: Scanning C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L20_U80\test\labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100%|██████████| 40/40 [00:00<?, ?it/s]
 FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
 FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
 FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
 FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
-                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:03<00:00,  1.07s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:03<00:00,  1.04s/it]
                    all         40        268      0.583      0.518      0.546      0.501
 DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3          5          9      0.519      0.556       0.61      0.529
 DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3          5          8      0.222       0.25      0.317      0.314
@@ -115,7 +114,7 @@ LACTOGROW PRO 1+ Honey 40x145g ID          3          3      0.621      0.667   
 LACTOGROW PRO 1+ Van 12x1kg ID          4          4          1      0.485      0.637      0.623
 LACTOGROW PRO 1+ Van 12x735g ID          3          3      0.461      0.667      0.378      0.305
 LACTOGROW PRO 1+ Van 24x350g ID          4          4      0.582      0.706      0.656      0.576
-Speed: 1.1ms preprocess, 16.0ms inference, 0.1ms loss, 10.2ms postprocess per image
+Speed: 2.6ms preprocess, 15.9ms inference, 0.0ms loss, 1.7ms postprocess per image
 Results saved to hasilAkhir\scenario_L20_teacher
 📊 mAP@50: 0.5459962752893988
 📊 mAP@50-95: 0.5007951981257687

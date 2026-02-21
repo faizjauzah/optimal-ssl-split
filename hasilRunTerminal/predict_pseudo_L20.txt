@@ -2,14 +2,14 @@
 FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
 🚀 Memuat model Guru (Teacher): C:\Users\mfaiz\Documents\dev\tugas_akhir_final\hasilAkhir\scenario_L20_teacher\weights\best.pt
 📂 Ditemukan 263 gambar Unlabeled.
-🎯 Target Threshold: Conf=0.25, IoU=0.6
+🎯 Target Threshold: Conf=0.7, IoU=0.6
 ⏳ Mulai Pseudo-labeling dengan TTA (Test Time Augmentation)...
-Generating Labels: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 263/263 [01:47<00:00,  2.45it/s]
+Generating Labels: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 263/263 [01:57<00:00,  2.25it/s]
 
 ✅ Pseudo-labeling Selesai!
 📄 Label tersimpan di: C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L20_U80\train_unlabeled\labels
 📊 Statistik:
    - Total Gambar: 263
-   - Total Objek Terdeteksi: 2235
-   - Gambar Kosong (No Object): 1
+   - Total Objek Terdeteksi: 1157
+   - Gambar Kosong (No Object): 45
 💡 Langkah selanjutnya: Training Model Student menggunakan data Labeled + Unlabeled (Pseudo).
