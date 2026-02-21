@@ -19,7 +19,7 @@ UNLABELED_LABELS_DIR = r"C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\
 
 # --- HYPERPARAMETER SSL (PENTING) ---
 # Threshold tinggi = hanya prediksi yakin yang dipakai untuk melatih Student
-CONF_THRESHOLD = 0.25 # Confidence minimal prediksi dianggap valid
+CONF_THRESHOLD = 0.70 # Confidence minimal prediksi dianggap valid
 IOU_THRESHOLD = 0.60 # IoU untuk NMS (menghapus box tumpang tindih)
 # ===============================================
 
