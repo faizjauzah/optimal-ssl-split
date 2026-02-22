@@ -1,9 +1,9 @@
 from ultralytics import YOLO
 
 # ================= KONFIGURASI =================
-DATA_YAML = r"C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L40_U60\data_student.yaml" # File YAML dataset Student (gabungan labeled + pseudo labeled)
+DATA_YAML = r"C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L50_U50\data_student.yaml" # File YAML dataset Student (gabungan labeled + pseudo labeled)
 PROJECT_NAME = "hasilAkhir"
-RUN_NAME = "scenario_L40_student" 
+RUN_NAME = "scenario_L50_student" 
 # ===============================================
 
 def main():

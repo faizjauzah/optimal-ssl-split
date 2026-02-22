@@ -1,0 +1,55 @@
+path: C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L50_U50
+train:
+- C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L50_U50\train_labeled\images
+- C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L50_U50\train_unlabeled\images
+val: C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L50_U50\val\images
+test: C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L50_U50\test\images
+nc: 47
+names:
+  0: DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3
+  1: DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3
+  2: DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDESIGN3
+  3: DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN3
+  4: DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN3
+  5: DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESIGN3
+  6: DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3
+  7: DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESIGN3
+  8: DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3
+  9: DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN3
+  10: DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN3
+  11: DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN3
+  12: DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3
+  13: DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3
+  14: DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3
+  15: DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN3
+  16: DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN3
+  17: LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2
+  18: LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2
+  19: LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2
+  20: LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2
+  21: LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2
+  22: LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2
+  23: LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2
+  24: LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2
+  25: LACTOGEN PRO 0-6 mo 12x1kg ID
+  26: LACTOGEN PRO 0-6 mo 12x735g ID
+  27: LACTOGEN PRO 0-6 mo 24x350g ID
+  28: LACTOGEN PRO 0-6 mo 40x180g ID
+  29: LACTOGEN PRO 6-12 mo 12x1kg ID
+  30: LACTOGEN PRO 6-12 mo 12x735g ID
+  31: LACTOGEN PRO 6-12 mo 24x350g ID
+  32: LACTOGEN PRO 6-12 mo 40x180g ID
+  33: LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDESIGN2
+  34: LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDESIGN2
+  35: LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDESIGN2
+  36: LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDESIGN2
+  37: LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2
+  38: LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESIGN2
+  39: LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESIGN2
+  40: LACTOGROW PRO 1+ Honey 12x1kg ID
+  41: LACTOGROW PRO 1+ Honey 12x735g ID
+  42: LACTOGROW PRO 1+ Honey 24x350g ID
+  43: LACTOGROW PRO 1+ Honey 40x145g ID
+  44: LACTOGROW PRO 1+ Van 12x1kg ID
+  45: LACTOGROW PRO 1+ Van 12x735g ID
+  46: LACTOGROW PRO 1+ Van 24x350g ID
