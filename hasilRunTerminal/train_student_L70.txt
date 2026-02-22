@@ -1,0 +1,123 @@
+EarlyStopping: Training stopped early as no improvement observed in last 30 epochs. Best results observed at epoch 99, best model saved as best.pt.
+To update EarlyStopping(patience=30) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+129 epochs completed in 0.275 hours.
+Optimizer stripped from hasilAkhir\scenario_L70_student\weights\last.pt, 5.5MB
+Optimizer stripped from hasilAkhir\scenario_L70_student\weights\best.pt, 5.5MB
+
+Validating hasilAkhir\scenario_L70_student\weights\best.pt...
+Ultralytics 8.3.63 🚀 Python-3.10.19 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2060 SUPER, 8192MiB)
+YOLOv12n summary (fused): 376 layers, 2,517,509 parameters, 0 gradients, 5.9 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.13it/s]
+                   all         40        290      0.863      0.886      0.907      0.859
+DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3          2          2      0.624          1      0.995       0.92
+DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3          4          4      0.759          1      0.945        0.9
+DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDESIGN3          7         12      0.981      0.917      0.979       0.95
+DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN3          6         14      0.928          1      0.995      0.928
+DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN3          2          3      0.788      0.333      0.566      0.521
+DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESIGN3          8         12      0.909      0.917      0.938      0.913
+DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3          7         14      0.984      0.929      0.979      0.934
+DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESIGN3          2          3       0.93          1      0.995      0.895
+DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3          4          6      0.949      0.833      0.838      0.784
+DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN3         10         11      0.782      0.636      0.891      0.868
+DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN3          9          9      0.896          1      0.984      0.972
+DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN3          5          9          1          1      0.995      0.919
+DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3          9         12      0.763      0.805       0.86      0.822
+DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3         10         10      0.853        0.7      0.852        0.8
+DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3          3          5          1      0.883      0.995      0.951
+DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN3          8          8      0.621      0.875      0.648      0.579
+DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN3          7         10      0.805       0.83      0.869      0.825
+LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2          1          3      0.727          1      0.995      0.995
+LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2          2          3      0.945          1      0.995      0.951
+LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2          4          4      0.713       0.75       0.73      0.711
+LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2          4          4      0.952          1      0.995      0.995
+LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2          2          4      0.942          1      0.995      0.964
+LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2          4          4       0.95          1      0.995      0.921
+LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2          3          3      0.724          1      0.995      0.929
+LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2          1          1      0.868          1      0.995      0.995
+LACTOGEN PRO 0-6 mo 12x1kg ID          3          3      0.794          1      0.995       0.94
+LACTOGEN PRO 0-6 mo 12x735g ID          8         10      0.875      0.698      0.821      0.776
+LACTOGEN PRO 0-6 mo 24x350g ID         11         11      0.781      0.649      0.708      0.647
+LACTOGEN PRO 0-6 mo 40x180g ID          7         11      0.818      0.909      0.835       0.75
+LACTOGEN PRO 6-12 mo 12x1kg ID          5          5      0.798          1      0.862      0.779
+LACTOGEN PRO 6-12 mo 12x735g ID          5          6      0.957      0.833      0.848      0.786
+LACTOGEN PRO 6-12 mo 24x350g ID          5          5      0.965          1      0.995      0.914
+LACTOGEN PRO 6-12 mo 40x180g ID          5          5      0.957          1      0.995      0.914
+LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDESIGN2          4          7      0.747      0.571       0.83      0.804
+LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDESIGN2          4          6      0.773      0.576      0.717      0.691
+LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDESIGN2          6          6      0.686      0.735      0.703      0.656
+LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDESIGN2          5          5      0.967        0.8      0.803      0.773
+LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2          1          2      0.947          1      0.995       0.92
+LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESIGN2          2          2          1      0.775      0.995      0.995
+LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESIGN2          3          3      0.723          1      0.995      0.995
+LACTOGROW PRO 1+ Honey 12x1kg ID          3          3      0.925          1      0.995      0.929
+LACTOGROW PRO 1+ Honey 12x735g ID          2          2       0.92          1      0.995      0.945
+LACTOGROW PRO 1+ Honey 24x350g ID          7         10      0.894          1       0.94      0.877
+LACTOGROW PRO 1+ Honey 40x145g ID          5          5      0.992        0.8      0.802      0.662
+LACTOGROW PRO 1+ Van 12x1kg ID          5          5      0.941          1      0.995      0.916
+LACTOGROW PRO 1+ Van 12x735g ID          4          4      0.948          1      0.995       0.97
+LACTOGROW PRO 1+ Van 24x350g ID          4          4      0.775      0.873      0.796      0.773
+Speed: 0.3ms preprocess, 8.0ms inference, 0.0ms loss, 1.3ms postprocess per image
+Results saved to hasilAkhir\scenario_L70_student
+✅ Training Student Selesai!
+📊 Melakukan Validasi pada Test Set...
+Ultralytics 8.3.63 🚀 Python-3.10.19 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2060 SUPER, 8192MiB)
+YOLOv12n summary (fused): 376 layers, 2,517,509 parameters, 0 gradients, 5.9 GFLOPs
+val: Scanning C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L70_U30\test\labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100%|██████████| 40/40 [00:00<?, ?it/s]
+FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
+FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
+FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
+FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:02<00:00,  1.01it/s]
+                   all         40        268      0.867        0.9      0.934      0.876
+DANCOW 1+ Madu Advn ExcNutr 12x1000g N1 ID_REDESIGN3          5          9          1      0.881      0.995      0.908
+DANCOW 1+ Madu Advn ExcNutr 12x800g ID_REDESIGN3          5          8      0.958          1      0.995      0.982
+DANCOW 1+ Madu Advn ExcNutr 24x400g N1 ID_REDESIGN3          5          8      0.888      0.994      0.982      0.982
+DANCOW 1+ Madu Advn ExcNutr 40x200g ID_REDESIGN3          3          3      0.934          1      0.995      0.962
+DANCOW 1+ Van Advn ExcNutr 12x1000g ID_REDESIGN3          5          6      0.959          1      0.995      0.886
+DANCOW 1+ Van Advn ExcNutr 12x800g N1 ID_REDESIGN3          6          8      0.631          1      0.761      0.732
+DANCOW 1+ Van Advn ExcNutr 24x400g ID_REDESIGN3          5         11          1      0.772      0.981      0.964
+DANCOW 1+ Van Advn ExcNutr 40x200g N1 ID_REDESIGN3          2          2      0.891          1      0.995      0.995
+DANCOW 3+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3          5         14      0.933      0.999      0.976      0.869
+DANCOW 3+ Madu Advn ExcNutr 12x800g ID_REDESIGN3         10         11      0.991      0.727      0.838      0.818
+DANCOW 3+ Madu Advn ExcNutr 24x400g ID_REDESIGN3          8         13      0.839      0.923      0.964      0.894
+DANCOW 3+ Van Advn ExcNutr 12x1000g ID_REDESIGN3          6         15      0.966          1      0.995      0.935
+DANCOW 3+ Van Advn ExcNutr 12x800g ID_REDESIGN3          3          3      0.347      0.715      0.585      0.571
+DANCOW 3+ Van Advn ExcNutr 24x400g ID_REDESIGN3          7         16      0.971      0.938      0.983      0.905
+DANCOW 5+ Madu Advn ExcNutr 12x1000g ID_REDESIGN3          5          9      0.874      0.667      0.864      0.807
+DANCOW 5+ Madu Advn ExcNutr 12x800g ID_REDESIGN3          8         10      0.799      0.795      0.932      0.873
+DANCOW 5+ Madu Advn ExcNutr 24x400g ID_REDESIGN3          6         11      0.881          1      0.995      0.952
+LACTOGEN 1 Happynutri 12x1kg ID_REDESIGN2          2          4      0.672       0.75      0.912      0.842
+LACTOGEN 1 Happynutri 12x750g N1 ID_REDESIGN2          1          2      0.868          1      0.995      0.895
+LACTOGEN 1 Happynutri 24x350g N1 ID_REDESIGN2          2          4      0.942          1      0.995      0.908
+LACTOGEN 1 Happynutri 40x180g N1 ID_REDESIGN2          3          3      0.936          1      0.995       0.94
+LACTOGEN 2 Happynutri 12x1kg ID_REDESIGN2          2          4      0.936          1      0.995      0.938
+LACTOGEN 2 Happynutri 12x750g N1 ID_REDESIGN2          3          3      0.774      0.333      0.583      0.524
+LACTOGEN 2 Happynutri 24x350g N1 ID_REDESIGN2          2          4      0.983          1      0.995       0.92
+LACTOGEN 2 Happynutri 40x180g N1 ID_REDESIGN2          2          3      0.955          1      0.995       0.94
+LACTOGEN PRO 0-6 mo 12x1kg ID          3          3      0.929          1      0.995       0.94
+LACTOGEN PRO 0-6 mo 12x735g ID          4          6      0.845      0.916      0.876      0.876
+LACTOGEN PRO 0-6 mo 24x350g ID          4          4       0.81          1      0.995      0.995
+LACTOGEN PRO 0-6 mo 40x180g ID          6          8          1       0.92      0.995        0.9
+LACTOGEN PRO 6-12 mo 12x1kg ID          4          5      0.909          1      0.995      0.948
+LACTOGEN PRO 6-12 mo 12x735g ID          4          4      0.777       0.75      0.764      0.701
+LACTOGEN PRO 6-12 mo 24x350g ID          4          4      0.896          1      0.995      0.904
+LACTOGEN PRO 6-12 mo 40x180g ID          5          7      0.875          1      0.995      0.954
+LACTOGROW 3 Happynutri Honey 12x1kg N1 ID_REDESIGN2          2          4      0.854          1      0.995      0.952
+LACTOGROW 3 Happynutri Honey 12x750g N1 ID_REDESIGN2          3          3      0.573      0.667      0.696      0.696
+LACTOGROW 3 Happynutri Honey 24x350g N1 ID_REDESIGN2          3          3      0.692      0.768      0.913      0.855
+LACTOGROW 3 Happynutri Honey 40x180g N1 ID_REDESIGN2          1          1      0.837          1      0.995      0.895
+LACTOGROW 3 Happynutri Van 12x1kg ID_REDESIGN2          2          3      0.973          1      0.995      0.907
+LACTOGROW 3 Happynutri Van 12x750g N1 ID_REDESIGN2          3          3          1      0.679      0.995      0.995
+LACTOGROW 3 Happynutri Van 24x350g N1 ID_REDESIGN2          1          1      0.861          1      0.995      0.895
+LACTOGROW PRO 1+ Honey 12x1kg ID          3          3      0.884      0.667      0.731      0.657
+LACTOGROW PRO 1+ Honey 12x735g ID          2          2      0.646          1      0.995      0.772
+LACTOGROW PRO 1+ Honey 24x350g ID          5          6      0.959          1      0.995      0.957
+LACTOGROW PRO 1+ Honey 40x145g ID          3          3      0.719          1      0.995      0.963
+LACTOGROW PRO 1+ Van 12x1kg ID          4          4      0.874       0.75      0.945      0.901
+LACTOGROW PRO 1+ Van 12x735g ID          3          3          1      0.939      0.995      0.886
+LACTOGROW PRO 1+ Van 24x350g ID          4          4      0.931       0.75      0.775      0.699
+Speed: 1.0ms preprocess, 12.7ms inference, 0.0ms loss, 12.6ms postprocess per image
+Results saved to hasilAkhir\scenario_L70_student
+📊 Student mAP@50: 0.9344822400053319
+📊 Student mAP@50-95: 0.8763608587803889
