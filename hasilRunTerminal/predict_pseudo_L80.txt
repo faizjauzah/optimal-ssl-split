@@ -1,0 +1,15 @@
+(yolov12) PS C:\Users\mfaiz\Documents\dev\tugas_akhir_final> & C:/Users/mfaiz/miniconda3/envs/yolov12/python.exe c:/Users/mfaiz/Documents/dev/tugas_akhir_final/yolov12/predict_pseudo_labels_L80.py
+FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
+🚀 Memuat model Guru (Teacher): C:\Users\mfaiz\Documents\dev\tugas_akhir_final\hasilAkhir\scenario_L80_teacher\weights\best.pt
+📂 Ditemukan 66 gambar Unlabeled.
+🎯 Target Threshold: Conf=0.7, IoU=0.6
+⏳ Mulai Pseudo-labeling dengan TTA (Test Time Augmentation)...
+Generating Labels: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 66/66 [00:07<00:00,  9.01it/s]
+
+✅ Pseudo-labeling Selesai!
+📄 Label tersimpan di: C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L80_U20\train_unlabeled\labels
+📊 Statistik:
+   - Total Gambar: 66
+   - Total Objek Terdeteksi: 387
+   - Gambar Kosong (No Object): 4
+💡 Langkah selanjutnya: Training Model Student menggunakan data Labeled + Unlabeled (Pseudo).

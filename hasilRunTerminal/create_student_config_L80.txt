@@ -1,0 +1,8 @@
+(yolov12) PS C:\Users\mfaiz\Documents\dev\tugas_akhir_final> & C:/Users/mfaiz/miniconda3/envs/yolov12/python.exe c:/Users/mfaiz/Documents/dev/tugas_akhir_final/yolov12/create_student_config_L80.py
+Mempersiapkan konfigurasi Student untuk: scenario_L80_U20...
+--- Memeriksa Integritas Data ---
+✅ Validasi OK: Ditemukan 262 label di 'train_labeled/labels'
+✅ Validasi OK: Ditemukan 66 label di 'train_unlabeled/labels'
+
+✅ Sukses! File konfigurasi tersimpan: C:\Users\mfaiz\Documents\dev\tugas_akhir_final\dataset\scenario_L80_U20\data_student.yaml
+   Mode: Semi-Supervised (Labeled + Pseudo-labeled)
