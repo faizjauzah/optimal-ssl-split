@@ -12,7 +12,7 @@ st.title("Demo Deteksi Objek Ritel: YOLOv12 + Noisy Student")
 st.markdown("Geser slider untuk membandingkan hasil deteksi dan grafik pelatihan dari berbagai skenario data berlabel.")
 
 # Slider untuk memilih rasio data berlabel
-rasio_label = st.slider("Rasio Data Berlabel (%)", min_value=10, max_value=50, step=10)
+rasio_label = st.slider("Rasio Data Berlabel (%)", min_value=10, max_value=90, step=10)
 
 # Mengamankan jalur direktori aktif
 current_dir = os.path.dirname(os.path.abspath(__file__))
