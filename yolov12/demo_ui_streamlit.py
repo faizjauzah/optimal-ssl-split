@@ -33,7 +33,11 @@ model = load_model(rasio_label)
 st.divider()
 
 # Membuat Tab agar UI rapi
-tab1, tab2 = st.tabs(["🖼️ Demo Inferensi Gambar", "📊 Grafik Metrik Pelatihan"])
+tab1, tab2, tab3 = st.tabs([
+    "🖼️ Demo Inferensi Gambar", 
+    "📊 Grafik Metrik Pelatihan", 
+    "📈 Perbandingan Semua Skenario"
+])
 
 # ==========================================
 # TAB 1: DEMO INFERENSI
@@ -138,3 +142,76 @@ with tab2:
             
     else:
         st.error(f"File CSV tidak ditemukan di jalur: {csv_path}. Pastikan file sudah dicopy dan dinamai dengan benar.")
+
+# ==========================================
+# TAB 3: PERBANDINGAN SEMUA SKENARIO (SWEET SPOT ANALYSIS)
+# ==========================================
+with tab3:
+    st.header("Analisis Komparatif Performa Model (SSL YOLOv12)")
+    st.markdown("""
+    Bagian ini membandingkan metrik mAP dari seluruh skenario rasio data berlabel (10% - 90%) 
+    untuk melihat pengaruh metode *Noisy Student* secara keseluruhan.
+    """)
+
+    # Daftar semua rasio yang ingin dibandingkan
+    semua_rasio = list(range(10, 100, 10))
+    
+    # List untuk menampung data gabungan
+    data_map50 = {}
+    data_map50_95 = {}
+
+    with st.spinner("Mengompilasi data dari seluruh skenario..."):
+        for rasio in semua_rasio:
+            csv_path_all = os.path.join(current_dir, "metrics", f"results_{rasio}.csv")
+            
+            if os.path.exists(csv_path_all):
+                df_temp = pd.read_csv(csv_path_all)
+                df_temp.columns = df_temp.columns.str.strip()
+                
+                # Gunakan epoch sebagai index agar sinkron di grafik
+                if 'epoch' in df_temp.columns:
+                    # Ambil kolom mAP50 dan mAP50-95, simpan dengan nama kolom sesuai rasio
+                    data_map50[f"Rasio {rasio}%"] = df_temp['metrics/mAP50(B)']
+                    data_map50_95[f"Rasio {rasio}%"] = df_temp['metrics/mAP50-95(B)']
+
+    if data_map50:
+        # Konversi dictionary ke DataFrame
+        df_comparison_50 = pd.DataFrame(data_map50)
+        df_comparison_95 = pd.DataFrame(data_map50_95)
+        
+        col_comp1, col_comp2 = st.columns(2)
+
+        with col_comp1:
+            st.subheader("Grafik Perbandingan mAP50")
+            st.line_chart(df_comparison_50)
+            st.caption("Tren kenaikan mAP50 untuk setiap rasio data berlabel.")
+
+        with col_comp2:
+            st.subheader("Grafik Perbandingan mAP50-95")
+            st.line_chart(df_comparison_95)
+            st.caption("Tren stabilitas deteksi pada berbagai tingkat IoU (mAP50-95).")
+
+        st.divider()
+        
+        # Ringkasan Akhir untuk Bab 4/5
+        st.success("### 🎓 Insight Mentor untuk Analisis 'Sweet Spot'")
+        
+        # Mencari nilai max dari masing-masing skenario untuk tabel ringkasan
+        summary_data = []
+        for col in df_comparison_50.columns:
+            summary_data.append({
+                "Skenario": col,
+                "Max mAP50": df_comparison_50[col].max(),
+                "Max mAP50-95": df_comparison_95[col].max()
+            })
+        
+        st.table(pd.DataFrame(summary_data))
+        
+        st.info("""
+        **Tips Menulis Bab 4:**
+        1. **Analisis Efisiensi**: Perhatikan selisih antara Rasio 30% dan Rasio 90%. Jika perbedaannya sangat tipis (misal < 2%), maka Anda bisa berargumen bahwa metode SSL Noisy Student sangat efektif menghemat biaya pelabelan.
+        2. **Fenomena Plateau**: Apakah ada rasio tertentu di mana performa tidak lagi naik secara signifikan? Itulah *sweet spot* Anda.
+        3. **Kestabilan**: Jika grafik mAP50-95 sangat fluktuatif di rasio rendah (10-20%), artinya *pseudo-label* masih mengandung banyak 'noise' yang mengganggu lokalisasi objek.
+        """)
+    else:
+        st.warning("Data CSV untuk perbandingan tidak ditemukan. Pastikan file 'results_10.csv' hingga 'results_90.csv' tersedia di folder metrics.")
